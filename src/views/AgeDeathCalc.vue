@@ -27,7 +27,7 @@ async function getDeathAge() {
 
             <label>
                 <p>Name</p>
-                <input type="text" v-model="name" @keydown.enter="getDeathAge">
+                <input placeholder="Name" type="text" v-model="name" @keydown.enter="getDeathAge">
             </label>
             
             <button @click="getDeathAge">Calculate</button>
