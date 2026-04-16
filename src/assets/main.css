@@ -1,1 +1,19 @@
 @import url('reset.css');
+
+
+:root {
+  --first-color: #233142;
+  --second-color: #455d7a;
+  --third-color: #f95959;
+  --fourth-color: #e3e3e3;
+}
+
+
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background-color: var(--fourth-color);
+}
+
+* {
+  color: var(--first-color);
+}
